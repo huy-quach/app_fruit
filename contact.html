@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Favicon Icon Web  -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+
+
+    <!-- Link CSS Bootstrap 5.2.2 Library  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- Bootstrap JS  -->
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bundle.min.js"></script>
+
+    <!-- Jquery JS  -->
+    <script src="./js/jquery.min.js"></script>
+
+
+    <!-- Style CSS Custom  -->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <!-- FontAwesome Icon Link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- GPS CSS  -->
+    <link rel="stylesheet" href="./css/leaflet.css">
+
+
+    <!-- Title Name  -->
+    <title>Trang liên hệ</title>
+
+</head>
+
+<body>
+
+    <!-- Preloader  -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+
+        <!-- Header Page  -->
+        <header>
+            <!-- Start Navigation Bootstrap  -->
+            <!-- Tên Class hỗ trợ trong Bootstrap  -->
+            <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
+                <div class="container text-light">
+                    <!-- Utilities Flex Bootstrap d-flex  , Sizing w-100 là width = 100% -->
+                    <div class="w-100 d-flex justify-content-between">
+                        <div>
+                            <!-- Các icon hỗ trợ trong FonAweSome  -->
+                            <i class="fa fa-envelope mx-2" aria-hidden="true"></i>
+                            <!-- Hỗ trợ từ Bootstrap  -->
+                            <a class="navbar-sm-brand text-light text-decoration-none"
+                                href="mailto:quach.huy2015@gmail.com">tah.fruit@gmail.com</a>
+                            &nbsp;
+                            <!-- Các icon hỗ trợ trong FonAweSome  -->
+                            <i class="fa fa-phone mx-2"></i>
+                            <!-- Hỗ trợ từ Bootstrap  -->
+                            <a class="navbar-sm-brand text-light text-decoration-none"
+                                href="tel:033-xxx-xxx">000.000.0000</a>
+                        </div>
+                        <div>
+                            <!-- Hỗ trợ từ Bootstrap và Icons FontAweSome  -->
+                            <a class="text-light" href="#" target="_blank" rel="sponsored"><i
+                                    class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                            <!-- Hỗ trợ từ Bootstrap và Icons FontAweSome-->        
+                            <a class="text-light" href="#" target="_blank"><i
+                                    class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+                            <!-- Hỗ trợ từ Bootstrap và Icons FontAweSome -->       
+                            <a class="text-light" href="#" target="_blank"><i
+                                    class="fab fa-github fa-sm fa-fw me-2"></i></a>
+                            <!-- Hỗ trợ từ Bootstrap và Icons FontAweSome -->       
+                            <a class="text-light" href="#" target="_blank">
+                                <i class="fab fa-twitter fa-sm fa-fw"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- End Navigation Bootstrap  -->
+    
+            <!-- Start Navigation Bootstrap  -->
+            <!-- Components Navbar  -->
+            <nav class="navbar navbar-expand-lg navbar-light shadow">
+                <!-- Class container-fluid hỗ trợ Bootstrap sẽ là extra small = 100%, small = 100%, medium = 100%, large = 100%, extra large = 100% -->
+                <div class="container-fluid">
+                    <!-- Brand Logo  -->
+                    <a class="navbar-brand" href="index.html"><b>TAH Fruit &reg</b></a>
+                    <!-- Hover Sản phẩm hiển thị 3 trang product1, product2, product3  -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Class collapse hỗ trợ Bootstrap  -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <!-- mb-2 set margin-bottom và padding-bottom -->
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            &nbsp;
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Trang chủ</a>
+                            </li>
+                            &nbsp;
+                            <!-- Dropdown Bootstrap hiển thị 3 trang product1, product2, product3 -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Sản phẩm
+                                </a>
+                                <!-- 3 trang được hiển thị product 1, product 2, product 3 -->
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="product1.html">Trái cây nhập khẩu</a></li>
+                                    <li><a class="dropdown-item" href="product2.html">Trái cây nội địa</a></li>
+                                    <li><a class="dropdown-item" href="product3.html">Sản phẩm khác</a></li>
+                                </ul>
+                            </li>
+                            &nbsp;
+                            <!-- Trang Xem thêm trong Navbar  -->
+                            <li class="nav-item">
+                                <a class="nav-link active" href="about.html">Xem thêm</a>
+                            </li>
+                            &nbsp;
+                            <!-- Trang Xem thêm trong Navbar  -->
+                            <li class="nav-item">
+                                <a class="nav-link active" href="contact.html">Liên hệ</a>
+                            </li>
+                            &nbsp;
+                            <!-- Trang Xem thêm trong Navbar  -->
+                            <li class="nav-item">
+                                <a class="nav-link active" href="login.html">Đăng nhập</a>
+                            </li>
+                        </ul>
+                        <!-- Search Bar  -->
+                        <!-- action để thực thi vào trang search.html tìm kiếm, onsubmit để thực hiện js function checkValidateSearch()  -->
+                        <form name="frm-search" class="d-flex" role="search" method="get" action="search.html" onsubmit="checkValidateSearch()">
+                            <input id="myInput" class="form-control me-2" name="words" type="search"
+                                placeholder="Tìm kiếm từ khóa..." aria-label="Search">
+                            <button id="myBtnSearch" class="btn btn-outline-success" type="submit">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            &nbsp;
+                            <!-- Nút giỏ hàng  -->
+                            <button id="myBtnCart" class="btn btn-outline-success" type="button">
+                                <i class="fa fa-shopping-basket" onclick="openCart()"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- End Header Page -->
+
+
+    <!-- Start Content Page -->
+    <div class="container-fluid bg-light py-5">
+        <div class="col-md-6 m-auto text-center">
+            <h1 class="h1">Liên Hệ</h1>
+            <br>
+            <b>Địa chỉ:</b>
+            <a>P.Xuân Khánh, Q.Ninh Kiều, TP.Cần Thơ, Trường ĐH Cần Thơ.</a></br>
+            <br>
+            <b>Số điện thoại:</b>
+            <a>000.000.0000</a></br>
+            <br>
+            <b>Website:</b>
+            <a href="https://huy-quach.github.io/tab-fruit-web/"
+                style="color: #444444;">https://huy-quach.github.io/tab-fruit-web/</a>
+            </br>
+        </div>
+    </div>
+    <!-- Close Content Page-->
+
+
+    <!-- Start Map GPS -->
+    <div id="mapid" style="width: 100%; height: 500px; border: 5px solid #ccc; border-radius: 15px;"></div>
+    <script src="./js/leaflet.js"></script>
+    <script>
+        var mymap = L.map("mapid").setView(
+            [10.0299342, 105.7705329, 20.65],
+            15
+        );
+        L.tileLayer(
+            "https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw",
+            {
+                maxZoom: 18,
+                attribution:
+                    'TAH Website Fruit | Design by Nhóm 11 | Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+                    '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+                    'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                id: "mapbox/streets-v11",
+                tileSize: 512,
+                zoomOffset: -1,
+            }
+        ).addTo(mymap);
+
+        L.marker([10.0299342, 105.7705329, 20.65])
+            .addTo(mymap)
+            .bindPopup("<b>TAH Website Fruit</b> Trường ĐH Cần Thơ")
+            .openPopup();
+    </script>
+    <!-- End Map -->
+    <!-- Start Contact Form -->
+    <div class="container container-form">
+        <section class="mb-4">
+
+            <!--Section heading-->
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Liên hệ với chúng tôi</h2>
+            <!--Section description-->
+            <p class="text-center w-responsive mx-auto mb-5">Để có được sự phục vụ tốt nhất cho quý khách, quý khách vui
+                lòng gửi đánh giá phản hồi về cho chúng tôi.
+                <br>
+                <i>In order to have the best service for you, please give us feedback. </i>
+            </p>
+
+            <div class="row">
+
+                <!--Grid column-->
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="#" method="POST">
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <label for="name" class="">Họ và tên của bạn:</label>
+                                    <input type="text" id="name" name="name" class="form-control"
+                                        placeholder="Name:...">
+                                    <br>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <label for="email" class="">Email của bạn:</label>
+                                    <input type="email" id="email" name="email" class="form-control"
+                                        placeholder="Email:..."
+                                        pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}">
+
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <label for="subject" class="">Vấn đề:</label>
+                                    <input type="text" id="subject" name="subject" class="form-control"
+                                        placeholder="Problem:...">
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-12">
+
+                                <div class="md-form">
+                                    <label for="message">Nội dung:</label>
+                                    <textarea type="text" id="message" name="message" rows="2"
+                                        class="form-control md-textarea" placeholder="Content Problem:..."></textarea>
+                                    <br>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                    </form>
+
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-primary" onclick="formContact()">Gửi</a>
+                    </div>
+                    <div class="status"></div>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-3 text-center">
+                    <ul class="list-unstyled mb-0">
+                        <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                            <p>Thành phố Cần Thơ</p>
+                        </li>
+
+                        <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                            <p>(+84) 000.000.0000</p>
+                        </li>
+
+                        <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                            <p>contact@tah.fruit.com</p>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+            </div>
+
+        </section>
+    </div>
+    <!-- End Contact -->
+
+
+    <!-- Section Search  -->
+    <!-- set theo my-5 p-5 tương ứng với margin và padding  -->
+    <div class="container-fluid container-search container-index facts my-5 p-5">
+        <!-- dòng g-5  -->
+        <div class="row g-5">
+            <!-- cột  -->
+            <div class="col-md-6 col-xl-3 wow fadeIn" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+                <!-- text center  -->
+                <div class="text-center border p-5">
+                    <!-- icons  -->
+                    <i class="fa fa-certificate text-dark fa-3x mb-3"></i>
+                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">
+                        <!-- animating counter number custom  -->
+                        <div class="div-animation-1">
+                        </div>
+                    </h1>
+                    <span class="fs-5 fw-semi-bold text-dark">Sản phẩm</span>
+                </div>
+            </div>
+            <!-- cột  -->
+            <div class="col-md-6 col-xl-3 wow fadeIn"
+                style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+                <!-- text center  -->
+                <div class="text-center border p-5">
+                    <!-- icons  -->
+                    <i class="fa fa-users-cog fa-3x text-dark  mb-3"></i>
+                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">
+                        <!-- animating counter number custom  -->
+                        <div class="div-animation-2">
+                        </div>
+                    </h1>
+                    <span class="fs-5 fw-semi-bold text-dark ">Thành viên</span>
+                </div>
+            </div>
+            <!-- cột  -->
+            <div class="col-md-6 col-xl-3 wow fadeIn" 
+                style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;">
+                <!-- text center  -->
+                <div class="text-center border p-5">
+                    <!-- icons  -->
+                    <i class="fa fa-users fa-3x text-dark  mb-3"></i>
+                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">
+                        <!-- animating counter number custom  -->
+                        <div class="div-animation-3">
+                        </div>
+                    </h1>
+                    <span class="fs-5 fw-semi-bold text-dark ">Dự án</span>
+                </div>
+            </div>
+            <!-- cột  -->
+            <div class="col-md-6 col-xl-3 wow fadeIn"
+                style="visibility: visible; animation-delay: 0.7s; animation-name: fadeIn;">
+                <!-- text center  -->
+                <div class="text-center border p-5">
+                    <!-- icons  -->
+                    <i class="fa fa-check-double fa-3x text-dark  mb-3"></i>
+                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">
+                        <!-- animating counter number custom  -->
+                        <div class="div-animation-4">
+                        </div>
+                    </h1>
+                    <span class="fs-5 fw-semi-bold text-dark ">Xuất khẩu</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Section Search  -->
+
+
+    <!-- Footer Page -->
+    <!-- set background-color = dark hộ trợ bootstrap-->
+    <footer class="bg-dark" id="templatemo_footer">
+        <div class="container">
+            <!-- dòng -->
+            <div class="row">
+                <!-- cột  nằm bên trái -->
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">TAH Fruit &reg;</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt fa-fw"></i>
+                            <a class="text-decoration-none" href="address:clone">Địa chỉ:
+                                Thành Phố Cần Thơ</a>
+
+                        </li>
+                        <li>
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a class="text-decoration-none" href="tel:000-000-0000">Hotline:
+                                000.000.0000</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope fa-fw"></i>
+                            <a class="text-decoration-none" href="mailto:tah.fruit@gmail.com">
+                                tah.fruit@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- cột  nằm giữa -->
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Thương hiệu</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="#">Klever Fruits</a></li>
+                        <li><a class="text-decoration-none" href="#">VinFruits</a></li>
+                        <li><a class="text-decoration-none" href="#">GreenSpace Store</a></li>
+                        <li><a class="text-decoration-none" href="#">Minh Phương Fruits</a></li>
+                        <li><a class="text-decoration-none" href="#">DP Fruits</a></li>
+                    </ul>
+                </div>
+                <!-- cột  nằm bên phải -->
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Mục lục</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="index.html">Trang chủ</a></li>
+                        <li><a class="text-decoration-none" href="product1.html">Sản phẩm</a></li>
+                        <li><a class="text-decoration-none" href="contact.html">Liên hệ</a></li>
+                        <li><a class="text-decoration-none" href="login.html">Đăng nhập</a></li>
+                        <li><a class="text-decoration-none" href="about.html">Xem thêm</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- dòng với text = light  -->
+            <div class="row text-light mb-4">
+                <!-- cột nằm bên trái -->
+                <div class="col-12 mb-3">
+                    <div class="w-100 my-3 border-top border-light"></div>
+                </div>
+                <div class="col-auto me-auto">
+                    <ul class="list-inline text-left footer-icons">
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="#"><i
+                                    class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="#"><i
+                                    class="fab fa-instagram fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="#"><i
+                                    class="fab fa-github fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="#"><i
+                                    class="fab fa-twitter fa-lg fa-fw"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- cột nằm bên phải  -->
+                <div class="col-auto">
+                    <label class="sr-only" for="subscribeEmail">Email......</label>
+                    <div class="input-group mb-2">
+                        <input type="text" class="form-control bg-dark border-light" id="subscribeEmail"
+                            placeholder="Email......" style="color:white" ;="">
+                        <button type="reset" class="input-group-text bg-success text-light">Đăng ký</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- w-100 với width="100%" và background-color = black hộ trợ bootstrap  -->
+        <div class="w-100 bg-black py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-12">
+                        <!-- text bên trái với chữ light  -->
+                        <p class="text-left text-light">
+                            Copyright © 2022 TAH Fruit &reg;
+                            | Designed by <a rel="sponsored" href="#" target="_blank">Team 11 - Fruit Website</a>
+                        </p>
+                        <!-- thanh scroll custom  -->
+                        <a id="button-scroll"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer Page -->
+
+
+    <!-- JS Custom  -->
+    <script src="./js/custom.js"></script>
+
+</body>
+
+</html>

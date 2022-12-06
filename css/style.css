@@ -1,0 +1,713 @@
+/* CSS Style  */
+body {
+    font-family: "Roboto", sans-serif;
+    color: #444444;
+}
+/* Header */
+a{
+    text-decoration: none;
+}
+a.nav-link.active {
+    font-size: 18px;
+}
+a.nav-link.active:hover {
+    color: #198754;
+}
+.navbar-brand {
+    color: #000;
+    font-weight: 500;
+    font-size: 30px;
+    color: #198754 !important;
+
+}
+.translate-middle {
+    transform: translate(-50%, -50%) !important;
+}
+/* End Header  */
+
+
+
+/* Setting Custom Border on Page Product Color  */
+.border-top {
+    border-top: var(--bs-border-width) var(--bs-border-style) var(--bs-body-color)!important;
+}
+#sp01,
+#sp02,
+#sp03,
+#sp04,
+#sp05,
+#sp06,
+#sp07,
+#sp08,
+#sp09,
+#sp10,
+#sp11,
+#sp12,
+#sp13,
+#sp14,
+#sp15,
+#sp16,
+#sp17,
+#sp18,
+#sp19,
+#sp20,
+#sp21,
+#sp22,
+#sp23,
+#sp24 {
+    width: 100%;
+    padding: 5px 10px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    background-color: #ccc;
+}
+.btn-no-border {
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #ccc;
+}
+.btn-no-border-dark-mode {
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    border-radius: 100px;
+    background-color: #ccc;
+}
+.fa-shopping-cart {
+    color: #198754;
+}
+
+/* Product  */
+/* Size Image Product 640x427  */
+.section-products {
+    padding: 80px 0 54px;
+}
+
+.section-products .header {
+    margin-bottom: 50px;
+}
+.section-products .header h3 {
+    font-size: 1rem;
+    color: #fe302f;
+    font-weight: 500;
+}
+.section-products .header h2 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #444444;
+}
+.section-products .single-product {
+    margin-bottom: 26px;
+}
+
+.section-products .single-product .part-1 {
+    position: relative;
+    height: 290px;
+    max-height: 290px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border: 3px solid #82d9b0;
+    border-radius: 15px;
+}
+.section-products .single-product .part-1::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transition: all 0.3s;
+}
+.section-products .single-product:hover .part-1::before {
+    transform: scale(1.2, 1.2) rotate(5deg);
+}
+.section-products #product-1 .part-1::before {
+    background-image: url("/images/traitao.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+.section-products #product-2 .part-1::before {
+    background: url("/images/traicherry.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-3 .part-1::before {
+    background: url("/images/traikiwi.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-4 .part-1::before {
+    background: url("/images/traichanh.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-5 .part-1::before {
+    background: url("/images/traixoai.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-6 .part-1::before {
+    background: url("/images/traiduahau.png") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-7 .part-1::before {
+    background: url("/images/traidau.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-8 .part-1::before {
+    background: url("/images/traidua.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-9 .part-1::before {
+    background: url("/images/traicam.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-10 .part-1::before {
+    background: url("/images/traiquyt.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-11 .part-1::before {
+    background: url("/images/traiman.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-12 .part-1::before {
+    background: url("/images/traihong.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-13 .part-1::before {
+    background: url("/images/traimay.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-14 .part-1::before {
+    background: url("/images/traioi.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-15 .part-1::before {
+    background: url("/images/traivai.png") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-16 .part-1::before {
+    background: url("/images/traidao.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-17 .part-1::before {
+    background: url("/images/cachuadalat.png") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-18 .part-1::before {
+    background: url("/images/nhonoidia.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-19 .part-1::before {
+    background: url("/images/quabo.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-20 .part-1::before {
+    background: url("/images/traibuoi.jpeg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-21 .part-1::before {
+    background: url("/images/carot.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-22 .part-1::before {
+    background: url("/images/otchuongdo.webp") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-23 .part-1::before {
+    background: url("/images/suplodalat.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-24 .part-1::before {
+    background: url("/images/khoailangmat.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products .single-product .part-1 .discount,
+.section-products .single-product .part-1 .new {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #ffffff;
+    background-color: #fe302f;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+.section-products .single-product .part-1 .new {
+    left: 0;
+    background-color: #444444;
+}
+.section-products .single-product .part-1 ul {
+    position: absolute;
+    bottom: -41px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+.section-products .single-product:hover .part-1 ul {
+    bottom: 30px;
+    opacity: 1;
+}
+.section-products .single-product .part-1 ul li {
+    display: inline-block;
+    margin-right: 4px;
+}
+.section-products .single-product .part-1 ul li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ffffff;
+    color: #444444;
+    text-align: center;
+    box-shadow: 0 2px 20px rgb(50 50 50 / 10%);
+    transition: color 0.2s;
+}
+.section-products .single-product .part-1 ul li a:hover {
+    color: #fe302f;
+}
+.section-products .single-product .part-2 .product-title {
+    font-size: 1.3rem;
+}
+.section-products .single-product .part-2 h4 {
+    display: inline-block;
+    font-size: 1.1rem;
+}
+.section-products .single-product .part-2 .product-old-price {
+    position: relative;
+    padding: 0 7px;
+    margin-right: 2px;
+    opacity: 0.6;
+}
+.section-products .single-product .part-2 .product-old-price::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #444444;
+    transform: translateY(-50%);
+}
+/* End Product  */
+
+/* Style Preloader  */
+#loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2000;
+}
+
+#loader {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #3498db;
+
+    animation: spin 2s linear infinite;
+
+    z-index: 2001;
+}
+
+#loader:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #e74c3c;
+
+    animation: spin 3s linear infinite;
+
+}
+
+#loader:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #f9c922;
+
+    animation: spin 1.5s linear infinite;
+
+}
+
+@keyframes spin {
+    0% {
+
+        transform: rotate(0deg);
+
+    }
+
+    100% {
+
+        transform: rotate(360deg);
+
+    }
+}
+
+#loader-wrapper .loader-section {
+    position: fixed;
+    top: 0;
+    width: 51%;
+    height: 100%;
+    background: white;
+    z-index: 2000;
+
+    transform: translateX(0);
+
+}
+
+#loader-wrapper .loader-section.section-left {
+    left: 0;
+}
+
+#loader-wrapper .loader-section.section-right {
+    right: 0;
+}
+
+.loaded #loader-wrapper .loader-section.section-left {
+
+    transform: translateX(-100%);
+
+    transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+}
+
+.loaded #loader-wrapper .loader-section.section-right {
+
+    transform: translateX(100%);
+
+    transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+}
+
+.loaded #loader {
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+
+.loaded #loader-wrapper {
+    visibility: hidden;
+
+
+    transform: translateY(-100%);
+
+    transition: all 0.3s 1s ease-out;
+}
+
+.no-js #loader-wrapper {
+    display: none;
+}
+/* End Style Loader  */
+
+
+/* Style Footer  */
+.nav-link {
+    font-size: 0.9rem;
+    transition: color 0.9s;
+}
+#templatemo_footer a {
+    color: #dcdde1;
+}
+#templatemo_footer a:hover {
+    color: #68bb7d;
+}
+#templatemo_footer ul.footer-link-list li {
+    padding-top: 10px;
+}
+#templatemo_footer ul.footer-icons li {
+    width: 2.6em;
+    height: 2.6em;
+    line-height: 2.6em;
+}
+#templatemo_footer ul.footer-icons li:hover {
+    background-color: #cfd6e1;
+    transition: 0.5s;
+}
+#templatemo_footer ul.footer-icons li:hover i {
+    color: #212934;
+    transition: 0.5s;
+}
+#templatemo_footer .border-light {
+    border-color: #2d343f !important;
+}
+.input-group-text {
+    border: none;
+    background-color: #198754;
+    font-size: 17px;
+}
+.input-group-text:hover {
+    border: none;
+    background-color: #47bf85;
+}
+/* End Footer  */
+
+
+/* Table Order  */
+th, td {
+    border: 1px solid black;
+}
+table {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+}
+/* End Table Order  */
+
+
+/* Style Order Page  */
+#sbcart {
+    padding: 5px 10px;
+    margin: 5px;
+    border: 3px solid #198754;
+    background-color: #198754;
+    color: #fff;
+    border-radius:  20px;
+}
+#sbcart:hover {
+    background-color: #47bf85;
+}
+.fa-trash {
+    color: #198754;
+}
+.fa-trash:hover {
+    color: #fe302f;
+}
+/* End Style Order Page  */
+
+
+/* Page Search  */
+.text-search {
+    font-size: 40px;
+    color: #000;
+    font-weight: bold;
+}
+.input-container {
+    background-color: #198754;
+    color: #fff;
+}
+.section-header {
+    background-color: #ccc;
+    border-radius: 50px;
+}
+/* End Page Search  */
+
+
+/* Style Login, Lougout */
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+/* End Style Login, Logout */
+
+
+/* Carousel Brand */
+.h-100,
+.container{
+    font-family: "Roboto", sans-serif;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
+    display: block;
+    margin-left: 15%;
+    margin-right: 50%;
+    width: 70%;
+}
+.img-container {
+    margin-left: 45%;
+}
+#template-mo-zay-hero-carousel .carousel-item {
+    min-height: 30rem !important;
+}
+@media (min-width: 992px) {
+#templatemo_main_nav {
+    max-width: 550px;
+    }
+}
+@media (min-width: 768px) {
+#templatemo_main_nav .navbar-nav {
+     max-width: 450px;
+    }
+}
+/* Carousel Hero */
+#template-mo-zay-hero-carousel .carousel-indicators li {
+    margin-top: -50px;
+    background-color: #59ab6e;
+}
+#template-mo-zay-hero-carousel .carousel-control-next i,
+#template-mo-zay-hero-carousel .carousel-control-prev i {
+    color: #59ab6e !important;
+    font-size: 2.8em !important;
+}
+/* Hero Carousel */
+#template-mo-zay-hero-carousel {
+    background: #efefef !important;
+}
+.facts .border {
+    border-color: rgba(255, 255, 255, .1) !important;
+}
+.text-primary {
+    color: #FF5E14 !important;
+}
+.container-form {
+    background-color: #cfd6e1;
+    max-width: 1680px; 
+    padding-top: 15px;
+}
+#button-scroll {
+    display: inline-block;
+    background-color: #198754;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 15px;
+    right: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+#button-scroll::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;  
+    color: #fff;
+}
+#button-scroll:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+#button-scroll:active {
+    background-color: #555;
+}
+#button-scroll.show {
+    opacity: 1;
+    visibility: visible;
+}
+/* End Carousel Brand */
+
+
+/* Animation 1  */
+@property --num1 {
+    syntax: "<integer>";
+    initial-value: 25;
+    inherits: false;
+}
+.div-animation-1 {
+    animation: counter1 3s;
+    counter-reset: num1 var(--num1);
+    font: 800 70px system-ui;
+    padding: 2rem;           
+}
+.div-animation-1::after {
+    content: counter(num1);
+}
+@keyframes counter1 {
+    from {
+        --num1: 0;
+    }
+    to {
+        --num1: 25;
+    }
+}
+/* End Animation 1  */
+
+/* Animation 2  */
+@property --num2 {
+    syntax: "<integer>";
+    initial-value: 135;
+    inherits: false;
+}
+.div-animation-2 {
+    animation: counter2 3s;
+    counter-reset: num2 var(--num2);
+    font: 800 70px system-ui;
+    padding: 2rem;           
+}
+.div-animation-2::after {
+    content: counter(num2);
+}
+@keyframes counter2 {
+    from {
+        --num2: 0;
+    }
+    to {
+        --num2: 135;
+    }
+}
+/* End Animation 2  */
+
+/* Animation 3  */
+@property --num3 {
+    syntax: "<integer>";
+    initial-value: 3;
+    inherits: false;
+}
+.div-animation-3 {
+    animation: counter3 3s;
+    counter-reset: num3 var(--num3);
+    font: 800 70px system-ui;
+    padding: 2rem;           
+}
+.div-animation-3::after {
+    content: counter(num3);
+}
+@keyframes counter3 {
+    from {
+        --num3: 0;
+    }
+    to {
+        --num3: 9;
+    }
+}
+/* End Animation 3  */
+
+/* Animation 4  */
+@property --num4 {
+    syntax: "<integer>";
+    initial-value: 1839;
+    inherits: false;
+}
+.div-animation-4 {
+    animation: counter4 3s;
+    counter-reset: num4 var(--num4);
+    font: 800 70px system-ui;
+    padding: 2rem;           
+}
+.div-animation-4::after {
+    content: counter(num4);
+}
+@keyframes counter4 {
+    from {
+        --num4: 0;
+    }
+    to {
+        --num4: 1839;
+    }
+}
+/* End Animation 4  */

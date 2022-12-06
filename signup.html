@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Favicon Icon Web  -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+
+
+    <!-- Link CSS Bootstrap 5.2.2 Library  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- Bootstrap JS  -->
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bundle.min.js"></script>
+
+    <!-- Jquery JS  -->
+    <script src="./js/jquery.min.js"></script>
+
+
+    <!-- Style CSS Custom  -->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <!-- FontAwesome Icon Link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+    <!-- Title Name  -->
+    <title>Trang đăng ký</title>
+
+</head>
+
+<body>
+    <!-- Preloader  -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+    <!-- End Preloader  -->
+
+    <!-- Header Page  -->
+    <header>
+        <!-- Start Navigation Bootstrap  -->
+        <!-- Tên Class hỗ trợ trong Bootstrap  -->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
+            <div class="container text-light">
+                <!-- Utilities Flex Bootstrap d-flex  , Sizing w-100 là width = 100% -->
+                <div class="w-100 d-flex justify-content-between">
+                    <div>
+                        <!-- Các icon hỗ trợ trong FonAweSome  -->
+                        <i class="fa fa-envelope mx-2" aria-hidden="true"></i>
+                        <!-- Hỗ trợ từ Bootstrap  -->
+                        <a class="navbar-sm-brand text-light text-decoration-none"
+                            href="mailto:quach.huy2015@gmail.com">tah.fruit@gmail.com</a>
+                        &nbsp;
+                        <!-- Các icon hỗ trợ trong FonAweSome  -->
+                        <i class="fa fa-phone mx-2"></i>
+                        <!-- Hỗ trợ từ Bootstrap  -->
+                        <a class="navbar-sm-brand text-light text-decoration-none"
+                            href="tel:033-xxx-xxx">000.000.0000</a>
+                    </div>
+                    <div>
+                        <!-- Hỗ trợ từ Bootstrap và Icons FontAweSome  -->
+                        <a class="text-light" href="#" target="_blank" rel="sponsored"><i
+                                class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                        <!-- Hỗ trợ từ Bootstrap và Icons FontAweSome-->        
+                        <a class="text-light" href="#" target="_blank"><i
+                                class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+                        <!-- Hỗ trợ từ Bootstrap và Icons FontAweSome -->       
+                        <a class="text-light" href="#" target="_blank"><i
+                                class="fab fa-github fa-sm fa-fw me-2"></i></a>
+                        <!-- Hỗ trợ từ Bootstrap và Icons FontAweSome -->       
+                        <a class="text-light" href="#" target="_blank">
+                            <i class="fab fa-twitter fa-sm fa-fw"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navigation Bootstrap  -->
+
+        <!-- Start Navigation Bootstrap  -->
+        <!-- Components Navbar  -->
+        <nav class="navbar navbar-expand-lg navbar-light shadow">
+            <!-- Class container-fluid hỗ trợ Bootstrap sẽ là extra small = 100%, small = 100%, medium = 100%, large = 100%, extra large = 100% -->
+            <div class="container-fluid">
+                <!-- Brand Logo  -->
+                <a class="navbar-brand" href="index.html"><b>TAH Fruit &reg</b></a>
+                <!-- Hover Sản phẩm hiển thị 3 trang product1, product2, product3  -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Class collapse hỗ trợ Bootstrap  -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- mb-2 set margin-bottom và padding-bottom -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        &nbsp;
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Trang chủ</a>
+                        </li>
+                        &nbsp;
+                        <!-- Dropdown Bootstrap hiển thị 3 trang product1, product2, product3 -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Sản phẩm
+                            </a>
+                            <!-- 3 trang được hiển thị product 1, product 2, product 3 -->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="product1.html">Trái cây nhập khẩu</a></li>
+                                <li><a class="dropdown-item" href="product2.html">Trái cây nội địa</a></li>
+                                <li><a class="dropdown-item" href="product3.html">Sản phẩm khác</a></li>
+                            </ul>
+                        </li>
+                        &nbsp;
+                        <!-- Trang Xem thêm trong Navbar  -->
+                        <li class="nav-item">
+                            <a class="nav-link active" href="about.html">Xem thêm</a>
+                        </li>
+                        &nbsp;
+                        <!-- Trang Xem thêm trong Navbar  -->
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.html">Liên hệ</a>
+                        </li>
+                        &nbsp;
+                        <!-- Trang Xem thêm trong Navbar  -->
+                        <li class="nav-item">
+                            <a class="nav-link active" href="login.html">Đăng nhập</a>
+                        </li>
+                    </ul>
+                    <!-- Search Bar  -->
+                    <!-- action để thực thi vào trang search.html tìm kiếm, onsubmit để thực hiện js function checkValidateSearch()  -->
+                    <form name="frm-search" class="d-flex" role="search" method="get" action="search.html" onsubmit="checkValidateSearch()">
+                        <input id="myInput" class="form-control me-2" name="words" type="search"
+                            placeholder="Tìm kiếm từ khóa..." aria-label="Search">
+                        <button id="myBtnSearch" class="btn btn-outline-success" type="submit">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        &nbsp;
+                        <!-- Nút giỏ hàng  -->
+                        <button id="myBtnCart" class="btn btn-outline-success" type="button">
+                            <i class="fa fa-shopping-basket" onclick="openCart()"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End Header Page -->
+    <br>
+
+    <!-- Main Name  -->
+    <div class="container">
+        <main>
+            <!-- Bootstrap hỗ trợ class vh-100 = height 100vh  -->
+            <section class="vh-100">
+                <!-- Bootstrap hộ trợ h-100 = height 100% và py-5 = padding  -->
+                <div class="container py-5 h-100">
+                    <!-- Bootstrap hộ trợ dòng d-flex nằm trên 1 dòng và align-items-center để căn giữa theo chiều dọc và justify-content-center để căn giữa theo chiều ngang -->
+                    <div class="row d-flex align-items-center justify-content-center h-100">
+                        <!-- Chia thành 3 cột trong 1 thẻ div và đặt thẻ img .svg vào giữa  -->
+                        <div class="col-md-8 col-lg-7 col-xl-6">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg"
+                                class="img-fluid" alt="Template mdbcdn free download ">
+                        </div>
+                        <!-- Chia thành 3 cột trong 1 thẻ div và đặt thẻ form vào giữa  -->
+                        <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
+                            <form>
+                                <!-- Email input -->
+                                <div class="form-outline mb-4">
+                                    <!-- Text Email  -->
+                                    <label class="form-label">Email:</label>
+                                    <!-- Input Email  -->
+                                    <input type="email" id="input-email-signup" class="form-control form-control-lg"
+                                        pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}"
+                                        placeholder="Email..." />
+                                </div>
+
+                                <!-- Password input -->
+                                <div class="form-outline mb-4">
+                                    <!-- Text Mật khẩu -->
+                                    <label class="form-label">Mật khẩu:</label>
+                                    <!-- Input Mật khẩu -->
+                                    <input type="password" id="input-psw-signup" class="form-control form-control-lg"
+                                        placeholder="Mật khẩu..." />
+                                </div>
+
+                                <!-- Password input -->
+                                <div class="form-outline mb-4">
+                                    <!-- Text Nhập lại mật khẩu -->
+                                    <label class="form-label">Nhập lại mật khẩu:</label>
+                                    <!-- Input Nhập lại mật khẩu -->
+                                    <input type="password" id="input-psw2-signup" class="form-control form-control-lg"
+                                        placeholder="Mật khẩu..." />
+                                </div>
+
+                                <div class="d-flex justify-content-around align-items-center mb-4">
+                                    <!-- Checkbox -->
+                                    <div class="form-check">
+                                        <!-- Input Checkbox  -->
+                                        <input class="form-check-input" type="checkbox" id="checkbox" />
+                                        <!-- Text Checkbox  -->
+                                        <label class="form-check-label">Tôi đồng ý với các Chính sách và thỏa
+                                            thuận.</label>
+                                        <p id="error"></p>
+                                    </div>
+                                    <a href="#!">Quên mật khẩu?</a>
+                                </div>
+
+                                <!-- Submit button -->
+                                <!-- Nút button để đăng ký và thực thi hàm formSignUp  -->
+                                <button type="submit" class="btn btn-success btn-lg btn-block"
+                                    onclick="formSignUp()">Đăng ký</button>
+                                &nbsp;
+                                <!-- Nút button để đăng nhập và thực thi window.location.href = 'login.html'  -->
+                                <button type="button" class="btn btn-primary btn-lg btn-block"
+                                    onclick="window.location.href = 'login.html'">Đăng nhập</button>
+                                <div class="divider d-flex align-items-center my-4">
+                                    <p class="text-center fw-bold mx-3 mb-0 text-muted">Hoặc là</p>
+                                </div>
+                                <!-- Hoặc có thể click vào thẻ a với role là button để đăng nhập bằng Facebook  -->
+                                <a class="btn btn-primary btn-lg btn-block"
+                                    style="background-color: #3b5998; margin-left: 10px;" href="#!" role="button">
+                                    <i class="fab fa-facebook-f me-2"></i>
+                                    Đăng nhập qua Facebook
+                                </a>
+                                <!-- Hoặc có thể click vào thẻ a với role là button để đăng nhập bằng Google  -->
+                                <a class="btn btn-primary btn-lg btn-block"
+                                    style="background-color: #55acee; margin: 10px;" href="#!" role="button">
+                                    <i class="fa fa-mail-bulk"></i>
+                                    Đăng nhập qua Gmail
+                                </a>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <!-- End Main Name  -->
+
+
+    <!-- Section Name  -->
+    <section class="section-header text-dark">
+        <div class="container">
+            <!-- Theo dòng nằm giữa căn giữa Bootstrap hỗ trợ -->
+            <div class="row justify-content-center">
+                <!-- 3 cột content nằm giữa  -->
+                <div class="col-12 col-md-10 text-center mb-5 mb-md-7">
+                    <br>
+                    <!-- text  -->
+                    <h1><b>Đơn giản &amp; Đáng tin cậy.</b></h1>
+                    <p class="lead mb-4 mb-lg-5">
+                        <i>
+                            Mọi thứ sẽ được tiết kiệm, nhanh gọn thông qua việc bạn có thể tải về và sử dụng qua ứng
+                            dụng
+                            của chúng tôi, hãy nhấp vào biểu tưởng phía bên dưới.
+                        </i>
+                    </p>
+                    <div>
+                        <!-- 2 nút link href của thẻ a để click  -->
+                        <a href="#" class="btn btn-dark btn-download-app mb-xl-0 mr-2 mr-md-3">
+                            <span class="d-flex align-items-center">
+                                <span class="icon icon-brand mr-2 mr-md-3">
+                                    <span class="fab fa-apple">&nbsp;</span>
+                                </span>
+                                <span class="d-inline-block text-left">
+                                    <small class="font-weight-normal d-none d-md-block">Tải về bằng</small> App Store
+                                </span>
+                            </span>
+                        </a>
+                        <!-- nút link href của thẻ a để click  -->
+                        &nbsp;
+                        <a href="#" class="btn btn-dark btn-download-app">
+                            <span class="d-flex align-items-center">
+                                <span class="icon icon-brand mr-2 mr-md-3">
+                                    <span class="fab fa-google-play">&nbsp;</span>
+                                </span>
+                                <span class="d-inline-block text-left">
+                                    <small class="font-weight-normal d-none d-md-block">Tải về bằng</small> Google
+                                    Play
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-10 justify-content-center"><img class="d-none d-md-inline-block"
+                        src="https://demo.themesberg.com/swipe/assets/img/illustrations/scene.svg"
+                        alt="Image Free from themesberg"></div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Name  -->
+
+
+
+    <!-- Footer Page -->
+    <!-- set background-color = dark hộ trợ bootstrap-->
+    <footer class="bg-dark" id="templatemo_footer">
+        <div class="container">
+            <!-- dòng -->
+            <div class="row">
+                <!-- cột  nằm bên trái -->
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">TAH Fruit &reg;</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt fa-fw"></i>
+                            <a class="text-decoration-none" href="address:clone">Địa chỉ:
+                                Thành Phố Cần Thơ</a>
+
+                        </li>
+                        <li>
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a class="text-decoration-none" href="tel:000-000-0000">Hotline:
+                                000.000.0000</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope fa-fw"></i>
+                            <a class="text-decoration-none" href="mailto:tah.fruit@gmail.com">
+                                tah.fruit@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- cột  nằm giữa -->
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Thương hiệu</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="#">Klever Fruits</a></li>
+                        <li><a class="text-decoration-none" href="#">VinFruits</a></li>
+                        <li><a class="text-decoration-none" href="#">GreenSpace Store</a></li>
+                        <li><a class="text-decoration-none" href="#">Minh Phương Fruits</a></li>
+                        <li><a class="text-decoration-none" href="#">DP Fruits</a></li>
+                    </ul>
+                </div>
+                <!-- cột  nằm bên phải -->
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Mục lục</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="index.html">Trang chủ</a></li>
+                        <li><a class="text-decoration-none" href="product1.html">Sản phẩm</a></li>
+                        <li><a class="text-decoration-none" href="contact.html">Liên hệ</a></li>
+                        <li><a class="text-decoration-none" href="login.html">Đăng nhập</a></li>
+                        <li><a class="text-decoration-none" href="about.html">Xem thêm</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- dòng với text = light  -->
+            <div class="row text-light mb-4">
+                <!-- cột nằm bên trái -->
+                <div class="col-12 mb-3">
+                    <div class="w-100 my-3 border-top border-light"></div>
+                </div>
+                <div class="col-auto me-auto">
+                    <ul class="list-inline text-left footer-icons">
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="#"><i
+                                    class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="#"><i
+                                    class="fab fa-instagram fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="#"><i
+                                    class="fab fa-github fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="#"><i
+                                    class="fab fa-twitter fa-lg fa-fw"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- cột nằm bên phải  -->
+                <div class="col-auto">
+                    <label class="sr-only" for="subscribeEmail">Email......</label>
+                    <div class="input-group mb-2">
+                        <input type="text" class="form-control bg-dark border-light" id="subscribeEmail"
+                            placeholder="Email......" style="color:white" ;="">
+                        <button type="reset" class="input-group-text bg-success text-light">Đăng ký</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- w-100 với width="100%" và background-color = black hộ trợ bootstrap  -->
+        <div class="w-100 bg-black py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-12">
+                        <!-- text bên trái với chữ light  -->
+                        <p class="text-left text-light">
+                            Copyright © 2022 TAH Fruit &reg;
+                            | Designed by <a rel="sponsored" href="#" target="_blank">Team 11 - Fruit Website</a>
+                        </p>
+                        <!-- thanh scroll custom  -->
+                        <a id="button-scroll"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer Page -->
+
+    <!-- Script Custom  -->
+    <script src="./js/custom.js"></script>
+</body>
+
+</html>

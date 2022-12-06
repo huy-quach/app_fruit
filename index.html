@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Favicon Icon Web  -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+
+
+    <!-- Link CSS Bootstrap 5.2.2 Library  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" >
+
+    <!-- Bootstrap JS  -->
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bundle.min.js"></script>
+
+    <!-- Jquery JS  -->
+    <script src="./js/jquery.min.js"></script>
+
+
+    <!-- Style CSS Custom  -->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <!-- FontAwesome Icon Link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- Title Name  -->
+    <title>TAH Website Fruit</title>
+</head>
+
+<body>
+    <!-- Preloader  -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+
+        <!-- Header Page  -->
+        <header>
+            <!-- Start Navigation Bootstrap  -->
+            <!-- Tên Class hỗ trợ trong Bootstrap  -->
+            <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
+                <div class="container text-light">
+                    <!-- Utilities Flex Bootstrap d-flex  , Sizing w-100 là width = 100% -->
+                    <div class="w-100 d-flex justify-content-between">
+                        <div>
+                            <!-- Các icon hỗ trợ trong FonAweSome  -->
+                            <i class="fa fa-envelope mx-2" aria-hidden="true"></i>
+                            <!-- Hỗ trợ từ Bootstrap  -->
+                            <a class="navbar-sm-brand text-light text-decoration-none"
+                                href="mailto:quach.huy2015@gmail.com">tah.fruit@gmail.com</a>
+                            &nbsp;
+                            <!-- Các icon hỗ trợ trong FonAweSome  -->
+                            <i class="fa fa-phone mx-2"></i>
+                            <!-- Hỗ trợ từ Bootstrap  -->
+                            <a class="navbar-sm-brand text-light text-decoration-none"
+                                href="tel:033-xxx-xxx">000.000.0000</a>
+                        </div>
+                        <div>
+                            <!-- Hỗ trợ từ Bootstrap và Icons FontAweSome  -->
+                            <a class="text-light" href="#" target="_blank" rel="sponsored"><i
+                                    class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                            <!-- Hỗ trợ từ Bootstrap và Icons FontAweSome-->        
+                            <a class="text-light" href="#" target="_blank"><i
+                                    class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+                            <!-- Hỗ trợ từ Bootstrap và Icons FontAweSome -->       
+                            <a class="text-light" href="#" target="_blank"><i
+                                    class="fab fa-github fa-sm fa-fw me-2"></i></a>
+                            <!-- Hỗ trợ từ Bootstrap và Icons FontAweSome -->       
+                            <a class="text-light" href="#" target="_blank">
+                                <i class="fab fa-twitter fa-sm fa-fw"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- End Navigation Bootstrap  -->
+    
+            <!-- Start Navigation Bootstrap  -->
+            <!-- Components Navbar  -->
+            <nav class="navbar navbar-expand-lg navbar-light shadow">
+                <!-- Class container-fluid hỗ trợ Bootstrap sẽ là extra small = 100%, small = 100%, medium = 100%, large = 100%, extra large = 100% -->
+                <div class="container-fluid">
+                    <!-- Brand Logo  -->
+                    <a class="navbar-brand" href="index.html"><b>TAH Fruit &reg</b></a>
+                    <!-- Hover Sản phẩm hiển thị 3 trang product1, product2, product3  -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Class collapse hỗ trợ Bootstrap  -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <!-- mb-2 set margin-bottom và padding-bottom -->
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            &nbsp;
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Trang chủ</a>
+                            </li>
+                            &nbsp;
+                            <!-- Dropdown Bootstrap hiển thị 3 trang product1, product2, product3 -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Sản phẩm
+                                </a>
+                                <!-- 3 trang được hiển thị product 1, product 2, product 3 -->
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="product1.html">Trái cây nhập khẩu</a></li>
+                                    <li><a class="dropdown-item" href="product2.html">Trái cây nội địa</a></li>
+                                    <li><a class="dropdown-item" href="product3.html">Sản phẩm khác</a></li>
+                                </ul>
+                            </li>
+                            &nbsp;
+                            <!-- Trang Xem thêm trong Navbar  -->
+                            <li class="nav-item">
+                                <a class="nav-link active" href="about.html">Xem thêm</a>
+                            </li>
+                            &nbsp;
+                            <!-- Trang Xem thêm trong Navbar  -->
+                            <li class="nav-item">
+                                <a class="nav-link active" href="contact.html">Liên hệ</a>
+                            </li>
+                            &nbsp;
+                            <!-- Trang Xem thêm trong Navbar  -->
+                            <li class="nav-item">
+                                <a class="nav-link active" href="login.html">Đăng nhập</a>
+                            </li>
+                        </ul>
+                        <!-- Search Bar  -->
+                        <!-- action để thực thi vào trang search.html tìm kiếm, onsubmit để thực hiện js function checkValidateSearch()  -->
+                        <form name="frm-search" class="d-flex" role="search" method="get" action="search.html" onsubmit="checkValidateSearch()">
+                            <input id="myInput" class="form-control me-2" name="words" type="search"
+                                placeholder="Tìm kiếm từ khóa..." aria-label="Search">
+                            <button id="myBtnSearch" class="btn btn-outline-success" type="submit">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            &nbsp;
+                            <!-- Nút giỏ hàng  -->
+                            <button id="myBtnCart" class="btn btn-outline-success" type="button">
+                                <i class="fa fa-shopping-basket" onclick="openCart()"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- End Header Page -->
+
+    <!-- Start Main  -->
+    <!-- Start Banner Center -->
+    <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid img-container" src="./images/shopping.png" alt="Hình ảnh free từ Google">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left align-self-center">
+                                <h1 class="h1 text-success"><b>TAH Fruit &reg;</b> Shopping</h1>
+                                <h3>Chuyên cung cấp các mặt hàng chất lượng</h3>
+                                <p>
+                                    <b>TAH Fruit &reg;</b>chuyên cung cấp các mặt hàng xuất nhập khẩu của các loại trái
+                                    cây tốt nhất.
+                                    <a rel="sponsored" class="text-success" href="#" target="_blank">TAH Fruit &reg;</a>
+                                    Fanpage. Những hình ảnh hoàn toàn là sự thật tại
+                                    <a rel="sponsored" class="text-success" href="#clone" target="_blank">TAH Fruit
+                                        &reg;</a>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid img-container" src="./images/chatluong.png" alt="Hình ảnh free từ Google">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left">
+                                <h1 class="h1"><b>Chất Lượng</b></h1>
+                                <h3 class="h2">Tại <b>TAH Fruit &reg;</b> được đặt lên hàng đầu!</h3>
+                                <p>
+                                    Khi mua sắm tại <b>TAH Fruit &reg;</b> nếu có gặp bất kỳ khó khăn
+                                    nào hãy liên hệ với chúng tôi tại:
+                                    <a rel="sponsored" class="text-success" href="" target="_blank">TAH Fruit &reg;</a>
+                                    , đây là Fanpage chính thức của cửa hàng.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid img-container" src="./images/camket.jpg" alt="Hình ảnh free từ Google">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left">
+                                <h1 class="h1"><b>Cam Kết</b></h1>
+                                <h3 class="h2"></h3>
+                                <p>
+                                    Tại <strong>TAH Fruit &reg;</strong> các mặt hàng đã được qua kiểm
+                                    duyệt, đã được đánh giá chất lượng hoàn toàn là các mặt hàng
+                                    chính thức. Nếu phát hiện có sự lừa gạt của
+                                    <strong>TAH Fruit &reg;</strong> chúng tôi cam kết sẽ hoàn trả lại
+                                    100% tiền của mặt hàng và đền bù gấp 10 lần.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel"
+            role="button" data-bs-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        </a>
+        <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel"
+            role="button" data-bs-slide="next">
+            <i class="fas fa-chevron-right"></i>
+        </a>
+    </div>
+    <!-- End Banner Center shopping sell-->
+    <!--BOTTOM SHOP -->
+    <section class="container py-5">
+        <div class="row text-center pt-3">
+            <div class="col-lg-6 m-auto">
+                <h1 class="h1">
+                    Các mặt hàng <u>Mới</u> tại <b><i>TAH Fruit &reg</i></b>
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <a href="#"><img src="./images/traicherry.jpg" class="rounded-circle img-fluid border" alt="Hình ảnh free từ Google"/></a>
+                <h5 class="text-center mt-3 mb-3"><b>Trái Cherry</b></h5>
+                <p class="text-center">
+                    <i>
+                        Quả cherry chứa nhiều chất chống oxy hóa và các hợp chất chống viêm.
+                        Nhờ vậy, tác dụng của cherry giúp làm chậm quá trình lão hóa và ngăn ngừa
+                        các bệnh mãn tính như bệnh tim, ung thư, bệnh Alzheimer, tiểu đường và béo phì.
+                    </i>
+                    <br>
+                    <a class="btn btn-success" href="product1.html">Xem</a>
+                </p>
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <a href="#"><img src="./images/nhonoidia.jpg" class="rounded-circle img-fluid border" alt="Hình ảnh free từ Google"/></a>
+                <h2 class="h5 text-center mt-3 mb-3"><b>Nho Nhật Bản</b></h2>
+                <p class="text-center">
+                    <i>
+                        Nho xanh Nhật là loại nho quý tộc, đẳng cấp nhất.
+                        Vì thế nên nho Nhật đắt nhất thế giới, đầu mùa nho Nhật được ví như vàng ta,
+                        giữa mùa được ví như vàng tây còn cuối mùa được ví như kim cương. Là
+                        loại quà biếu sang chảnh, đẳng cấp. Được trồng ở vùng Nagano.
+                    </i>
+                    <br>
+                    <a class="btn btn-success" href="product2.html">Xem</a>
+                </p>
+
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <a href="#"><img src="./images/suplodalat.jpg" class="rounded-circle img-fluid border" alt="Hình ảnh free từ Google"/></a>
+                <h2 class="h5 text-center mt-3 mb-3"><b>Súp Lơ Đà Lạt</b></h2>
+                <p class="text-center">
+                    <i>
+                        Súp lơ xanh thân lá cũng giống như súp lơ trắng nhưng thân lá cao to hơn súp lơ trắng.
+                        Nụ hoa to hơn, mặt hoa không mịn, nụ hoa có màu xanh, chất lượng tốt ăn bùi.
+                    </i>
+                    <br>
+                    <a class="btn btn-success" href="product3.html">Xem</a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- End BOTTOM SHOP -->
+    <!-- Start Featured Product bottom assess -->
+    <section class="bg-light">
+        <div class="container py-5">
+            <div class="row text-center py-3">
+                <div class="col-lg-6 m-auto">
+                    <h1><b>Đánh giá</b></h1>
+                    <p>
+                        <i>Đánh giá dưới đây dựa trên tỷ lệ đánh giá của các mặt hàng đã bán.</i>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <a href="product1.html">
+                            <img src="./images/traitao.jpg" class="card-img-top" alt="Hình ảnh free từ Google" />
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">30.000đ</li>
+                            </ul>
+                            <a href="product1.html" class="h2 text-decoration-none text-dark"><b>Trái Táo</b></a>
+                            <p class="card-text">
+                            <ul>
+                                <li>Cung cấp nhiều vitamin và chất khoáng chất.</li>
+                                <li>Phòng ngừa đột quỵ và các bệnh tim mạch.</li>
+                                <li>Duy trì cholesterol ở mức độ tốt cho sức khỏe.</li>
+                                <li>Phòng ngừa bệnh Alzheimer.</li>
+                                <li>
+                                    <a href="https://vnexpress.net/loi-ich-cua-viec-an-tao-moi-ngay-4090645.html"
+                                        alt="Bài báo">
+                                        <i>Xem thêm...</i>
+                                    </a>
+                                </li>
+                            </ul>
+                            </p>
+                            <p class="text-muted">Đánh giá (231)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <a href="product1.html">
+                            <img src="./images/traidau.jpg" class="card-img-top" alt="Hình ảnh free từ Google" />
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">100.000đ</li>
+                            </ul>
+                            <a href="product1.html" class="h2 text-decoration-none text-dark"><b>Trái Dâu</b></a>
+                            <p class="card-text">
+                            <ul>
+                                <li>Cải thiện tình trạng chống oxy hóa máu.</li>
+                                <li>Giảm stress oxy hóa.</li>
+                                <li>Giảm viêm.</li>
+                                <li>Cải thiện chức năng mạch máu.</li>
+                                <li>
+                                    <a href="https://vinmec.com/vi/tin-tuc/thong-tin-suc-khoe/dinh-duong/thanh-phan-dinh-duong-cua-dau-tay/"
+                                        alt="Bài báo">
+                                        <i>
+                                            Xem thêm...
+                                        </i>
+                                    </a>
+                                </li>
+                            </ul>
+                            </p>
+                            <p class="text-muted">Reviews (223)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <a href="product1.html">
+                            <img src="./images/traimay.jpg" class="card-img-top" alt="Hình ảnh free từ Google" />
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">50.000đ</li>
+                            </ul>
+                            <a href="product1.html" class="h2 text-decoration-none text-dark"><b>Trái Mây</b></a>
+                            <p class="card-text">
+                            <ul>
+                                <li>Cải thiện thị giác.</li>
+                                <li>Tăng cường trí nhớ.</li>
+                                <li>Tốt cho dạ dày.</li>
+                                <li>Cải thiện sức khỏe tim mạch.</li>
+                                <li>
+                                    <a href="https://laodong.vn/dinh-duong-am-thuc/tac-dung-bat-ngo-tu-qua-may-doi-voi-suc-khoe-851258.ldo"
+                                        alt="Bài báo">
+                                        <i>Xem thêm...</i>
+                                    </a>
+                                </li>
+                            </ul>
+                            </p>
+                            <p class="text-muted">Reviews (174)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Featured Product -->
+    <!-- End Main Page -->
+
+    <!-- Start Brands -->
+    <section class="bg-light py-5">
+        <div class="container my-4">
+            <div class="row text-center py-3">
+                <div class="col-lg-6 m-auto">
+                    <h1 class="h1"><b>Thương hiệu nổi tiếng trong nước</b></h1>
+                    <p>
+                        <i>
+                            Các thương hiệu luôn cam kết với chúng tôi sẽ mang đến những mặt hàng chất lượng cho quý
+                            khách.
+                        </i>
+                    </p>
+                </div>
+                <div class="col-lg-9 m-auto tempaltemo-carousel">
+                    <div class="row d-flex flex-row">
+                        <!--Controls-->
+                        <div class="col-1 align-self-center">
+                            <a class="h1" href="#templatemo-slide-brand" role="button" data-bs-slide="prev">
+                                <i class="text-dark fas fa-chevron-left"></i>
+                            </a>
+                        </div>
+                        <!--End Controls-->
+
+                        <!--Carousel Wrapper-->
+                        <div class="col">
+                            <div class="carousel slide carousel-multi-item pt-2 pt-md-0" id="templatemo-slide-brand"
+                                data-bs-ride="carousel">
+                                <!--Slides-->
+                                <div class="carousel-inner product-links-wap" role="listbox">
+
+                                    <!--First slide-->
+                                    <div class="carousel-item active">
+                                        <div class="row">
+                                            <div class="col-3 p-md-5">
+                                                <a href="#">
+                                                    <img class="img-fluid brand-img"
+                                                        src="./images/klever-fruits-logo.png" alt="Logo thương hiệu từ Google"
+                                                        width="1000"></a>
+                                            </div>
+                                            <div class="col-3 p-md-5">
+                                                <a href="#">
+                                                    <img class="img-fluid brand-img" src="./images/vin-fruits-logo.jpg"
+                                                        alt="Logo thương hiệu từ Google" width="1000"></a>
+                                            </div>
+                                            <div class="col-3 p-md-5">
+                                                <a href="#">
+                                                    <img class="img-fluid brand-img" src="./images/green-space-logo.png"
+                                                        alt="Logo thương hiệu từ Google" width="1000"></a>
+                                            </div>
+                                            <div class="col-3 p-md-5">
+                                                <a href="#">
+                                                    <img class="img-fluid brand-img" src="./images/mp-fruit-logo.png"
+                                                        alt="Logo thương hiệu từ Google" width="1000"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--End First slide-->
+
+                                    <!--Second Slide-->
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-3 p-md-5">
+                                                <a href="#">
+                                                    <img class="img-fluid brand-img" src="./images/logo1.jpg"
+                                                        alt="Logo thương hiệu từ Google" width="1000"></a>
+                                            </div>
+                                            <div class="col-3 p-md-5">
+                                                <a href="#">
+                                                    <img class="img-fluid brand-img" src="./images/logo2.jpg"
+                                                        alt="Logo thương hiệu từ Google" width="1000"></a>
+                                            </div>
+                                            <div class="col-3 p-md-5">
+                                                <a href="#">
+                                                    <img class="img-fluid brand-img" src="./images/logo3.png"
+                                                        alt="Logo thương hiệu từ Google" width="1000"></a>
+                                            </div>
+                                            <div class="col-3 p-md-5">
+                                                <a href="#">
+                                                    <img class="img-fluid brand-img" src="./images/logo4.jpg"
+                                                        alt="Logo thương hiệu từ Google" width="1000"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--End Second Slide-->
+                                </div>
+                                <!--End Slides-->
+                            </div>
+                        </div>
+                        <!--End Carousel Wrapper-->
+
+                        <!--Controls-->
+                        <div class="col-1 align-self-center">
+                            <a class="h1" href="#templatemo-slide-brand" role="button" data-bs-slide="next">
+                                <i class="text-dark fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+                        <!--End Controls-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Brands-->
+
+        <!-- Section Search  -->
+    <!-- set theo my-5 p-5 tương ứng với margin và padding  -->
+    <div class="container-fluid container-search container-index facts my-5 p-5">
+        <!-- dòng g-5  -->
+        <div class="row g-5">
+            <!-- cột  -->
+            <div class="col-md-6 col-xl-3 wow fadeIn" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+                <!-- text center  -->
+                <div class="text-center border p-5">
+                    <!-- icons  -->
+                    <i class="fa fa-certificate text-dark fa-3x mb-3"></i>
+                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">
+                        <!-- animating counter number custom  -->
+                        <div class="div-animation-1">
+                        </div>
+                    </h1>
+                    <span class="fs-5 fw-semi-bold text-dark">Sản phẩm</span>
+                </div>
+            </div>
+            <!-- cột  -->
+            <div class="col-md-6 col-xl-3 wow fadeIn"
+                style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+                <!-- text center  -->
+                <div class="text-center border p-5">
+                    <!-- icons  -->
+                    <i class="fa fa-users-cog fa-3x text-dark  mb-3"></i>
+                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">
+                        <!-- animating counter number custom  -->
+                        <div class="div-animation-2">
+                        </div>
+                    </h1>
+                    <span class="fs-5 fw-semi-bold text-dark ">Thành viên</span>
+                </div>
+            </div>
+            <!-- cột  -->
+            <div class="col-md-6 col-xl-3 wow fadeIn" 
+                style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;">
+                <!-- text center  -->
+                <div class="text-center border p-5">
+                    <!-- icons  -->
+                    <i class="fa fa-users fa-3x text-dark  mb-3"></i>
+                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">
+                        <!-- animating counter number custom  -->
+                        <div class="div-animation-3">
+                        </div>
+                    </h1>
+                    <span class="fs-5 fw-semi-bold text-dark ">Dự án</span>
+                </div>
+            </div>
+            <!-- cột  -->
+            <div class="col-md-6 col-xl-3 wow fadeIn"
+                style="visibility: visible; animation-delay: 0.7s; animation-name: fadeIn;">
+                <!-- text center  -->
+                <div class="text-center border p-5">
+                    <!-- icons  -->
+                    <i class="fa fa-check-double fa-3x text-dark  mb-3"></i>
+                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">
+                        <!-- animating counter number custom  -->
+                        <div class="div-animation-4">
+                        </div>
+                    </h1>
+                    <span class="fs-5 fw-semi-bold text-dark ">Xuất khẩu</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Section Search  -->
+
+    <!-- Footer Page -->
+    <!-- set background-color = dark hộ trợ bootstrap-->
+    <footer class="bg-dark" id="templatemo_footer">
+        <div class="container">
+            <!-- dòng -->
+            <div class="row">
+                <!-- cột  nằm bên trái -->
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">TAH Fruit &reg;</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt fa-fw"></i>
+                            <a class="text-decoration-none" href="address:clone">Địa chỉ:
+                                Thành Phố Cần Thơ</a>
+
+                        </li>
+                        <li>
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a class="text-decoration-none" href="tel:000-000-0000">Hotline:
+                                000.000.0000</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope fa-fw"></i>
+                            <a class="text-decoration-none" href="mailto:tah.fruit@gmail.com">
+                                tah.fruit@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- cột  nằm giữa -->
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Thương hiệu</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="#">Klever Fruits</a></li>
+                        <li><a class="text-decoration-none" href="#">VinFruits</a></li>
+                        <li><a class="text-decoration-none" href="#">GreenSpace Store</a></li>
+                        <li><a class="text-decoration-none" href="#">Minh Phương Fruits</a></li>
+                        <li><a class="text-decoration-none" href="#">DP Fruits</a></li>
+                    </ul>
+                </div>
+                <!-- cột  nằm bên phải -->
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Mục lục</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="index.html">Trang chủ</a></li>
+                        <li><a class="text-decoration-none" href="product1.html">Sản phẩm</a></li>
+                        <li><a class="text-decoration-none" href="contact.html">Liên hệ</a></li>
+                        <li><a class="text-decoration-none" href="login.html">Đăng nhập</a></li>
+                        <li><a class="text-decoration-none" href="about.html">Xem thêm</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- dòng với text = light  -->
+            <div class="row text-light mb-4">
+                <!-- cột nằm bên trái -->
+                <div class="col-12 mb-3">
+                    <div class="w-100 my-3 border-top border-light"></div>
+                </div>
+                <div class="col-auto me-auto">
+                    <ul class="list-inline text-left footer-icons">
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="#"><i
+                                    class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="#"><i
+                                    class="fab fa-instagram fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="#"><i
+                                    class="fab fa-github fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="#"><i
+                                    class="fab fa-twitter fa-lg fa-fw"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- cột nằm bên phải  -->
+                <div class="col-auto">
+                    <label class="sr-only" for="subscribeEmail">Email......</label>
+                    <div class="input-group mb-2">
+                        <input type="text" class="form-control bg-dark border-light" id="subscribeEmail"
+                            placeholder="Email......" style="color:white" ;="">
+                        <button type="reset" class="input-group-text bg-success text-light">Đăng ký</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- w-100 với width="100%" và background-color = black hộ trợ bootstrap  -->
+        <div class="w-100 bg-black py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-12">
+                        <!-- text bên trái với chữ light  -->
+                        <p class="text-left text-light">
+                            Copyright © 2022 TAH Fruit &reg;
+                            | Designed by <a rel="sponsored" href="#" target="_blank">Team 11 - Fruit Website</a>
+                        </p>
+                        <!-- thanh scroll custom  -->
+                        <a id="button-scroll"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer Page -->
+
+
+    <!-- External JS Custom Check  -->
+    <script src="./js/custom.js"></script>
+</body>
+
+</html>
